@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../imgs/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 45px;
+    text-align: center;
+}
+.container{
+    background-image: url("../imgs/container\ background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 600px;
+    margin: auto;
+    color:white;
+    border: solid 3px  white;
+    border-radius: 10px;
+}
+
+.content{
+    height: 80%;
+}
+.myimg img{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ border: solid 2px #028d8c;
+ margin-top: 30px;
+}
+
+h2.myname {
+    font-size: 35px;
+    margin-top: 20px;
+}
+p.discription{
+    margin: 10px;
+}
+.icons i{
+margin: 20px;
+font-size: 30px;
+color: #037e83;
+
+}
+i#git:hover{
+color: rgb(255, 225, 255);
+}
+i#x:hover{
+color: rgb(255, 255, 255);
+}
+i#linked:hover{
+color: rgb(253, 251,255);
+}
+i#face:hover{
+color: rgb(255, 255, 255);
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgba(2,141,140,1) 0%, rgba(2,132,160,1) 39%, rgba(2,76,155,1) 88%);
+    color: white;
+    border-radius: 10px;
+    border: #037e83;
+}
+.btn:hover{
+    border: solid white 2px;
+    cursor:pointer;
+}
+
+.footer {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#text{
+    margin: 10px 0px;
+}
+#num{
+    border: solid 3px white;
+    border-radius: 10px 3px;
+    padding: 10px 0px;
+}
+.data{
+    margin-bottom: 50px;
+}
